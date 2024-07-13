@@ -39,8 +39,13 @@ Steps
 
 1. first install everything with npx create-next-app@latest carepulse
    then modify page.tsx, layout.tsx and globals.css
+
 2. Setting up dark mode (changes in tailwind.config.ts, globals.css, layout.tsx, lib/utils.ts)
    Correct way to do is
    (i) npx init npx `bash create-next-app@latest carepulse` then `bash npx shadcn-ui@latest init`
    (ii) then modify tailwind.config.ts, globals.css, lib/utils.ts and layout.tsx as per need
    (iii) then follow shadcn to setup the theme-provider to set dark theme in the layout.tsx.
+
+3. Complete page ui
+
+- Form implementation with custom input field

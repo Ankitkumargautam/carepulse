@@ -81,6 +81,11 @@
     @apply flex w-full flex-col items-center gap-8 border-y-2 border-dark-400 py-8 md:w-fit md:flex-row;
   }
 
+  /* ===== CUSTOM CSS FOR LOGO */
+  .logo-width {
+    width: 161px;
+  }
+
   /* ===== ADMIN */
   .admin-header {
     @apply sticky top-3 z-20 mx-3 flex items-center justify-between rounded-2xl bg-dark-200 px-[5%] py-5 shadow-lg xl:px-12;
